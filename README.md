@@ -4,11 +4,6 @@
 
 <center><b>Ultimate Wordpress - The ultimate Wordpress stack using Docker</b></center>
 
-# How To Run
-```
-sh scripts/setup.sh
-```
-
 This stack consists of the following components:
 - Nginx 1.14
 - Nginx FastCGI Cache
@@ -16,3 +11,7 @@ This stack consists of the following components:
 - MySQL 8
 - Redis 5
 - [Pressjitsu's Redis Object Cache](https://github.com/pressjitsu/pj-object-cache-red)
+
+TODO:
+- Let's Encrypt
+- Persist wp-content
