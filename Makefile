@@ -8,8 +8,9 @@ help:
 
 
 run:
-	@sh changeHost.sh
 	@docker-compose up -d --build
+	@cp init/wp-config.php code
+	@sh changeHost.sh
 
 clean:
 	@sh kill.sh
